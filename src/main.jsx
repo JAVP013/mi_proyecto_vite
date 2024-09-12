@@ -9,10 +9,13 @@ import MyPromisesAll from './functions/MyPromisesAll.jsx'
 import MyPromisesRace from './functions/MyPromisesRace.jsx' */
 import MyFetchsAPIs from './functions/MyFetchs.jsx'
 import MyFetchAPIss from './functions/MyFetchAPIs.jsx'
+import MyFetchsPost from './functions/MyFetchPost.jsx'
+import MyFetchAPIsp from './functions/MyFetchPut.jsx'
+import MyFetchBlob from './functions/MyFetchsBlod.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
-   <MyFetchAPIss></MyFetchAPIss>
+   <MyFetchBlob></MyFetchBlob>
     </StrictMode>,
     
 )
