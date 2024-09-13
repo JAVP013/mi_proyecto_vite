@@ -12,10 +12,13 @@ import MyFetchAPIss from './functions/MyFetchAPIs.jsx'
 import MyFetchsPost from './functions/MyFetchPost.jsx'
 import MyFetchAPIsp from './functions/MyFetchPut.jsx'
 import MyFetchBlob from './functions/MyFetchsBlod.jsx'
+import MyDataTypes from './methods/MyDtaTypes.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
-   <MyFetchBlob></MyFetchBlob>
+   <MyFetchAPIsp/>
+   <MyFetchBlob/>
+   <MyFetchsPost/>
     </StrictMode>,
     
 )
