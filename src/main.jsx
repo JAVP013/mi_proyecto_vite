@@ -16,10 +16,11 @@ import MyDataTypes from './methods/MyDtaTypes.jsx'
 import MyObjects from './methods/MyObjects.jsx'
 import { Contador } from './components/contador.jsx'
 import { ContadorHook } from './components/ContadorHook.jsx'
+import { Login } from './components/Login.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
-   <ContadorHook/>
+   <Login/>
     </StrictMode>,
     
 )
